@@ -20,7 +20,6 @@ export const Footer = () => {
             </h6>
             <p>
               Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
           {/* Grid column */}
@@ -88,7 +87,7 @@ export const Footer = () => {
       className="text-center p-4"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}
     >
-      © 2022 Copyright:
+      © 2024 Copyright:
       <a className="text-reset fw-bold" href="https://converter.harrykauhaad.com">
       converter.harrykauhaad.com
       </a>
