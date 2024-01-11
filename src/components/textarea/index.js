@@ -181,17 +181,6 @@ export const Textform = (props) => {
 
         </div>
       </div>
-
-      <div className='container section-1'>
-        <h2 className='text-center'>Preview</h2>
-        <div id="preview">
-          <p>{text.length > 0 ? text : "Enter Something in Textarea above to Preview"}</p>
-
-        </div>
-      </div>
-
-
-
     </>
   )
 }
