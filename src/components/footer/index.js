@@ -32,9 +32,7 @@ export const Footer = () => {
       style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}
     >
       © 2024 Copyright: 
-      <a className="text-reset fw-bold" href="https://converter.harrykauhaad.com">
-      converter.harrykauhaad.com
-      </a>
+      <a className="text-reset fw-bold" href="https://converter.harrykauhaad.com"> converter.harrykauhaad.com</a>
     </div>
     {/* Copyright */}
   </footer>
