@@ -21,64 +21,8 @@ export const Footer = () => {
             <p>
               Here you can use rows and columns to organize your footer content.
             </p>
-          </div>
-          {/* Grid column */}
-          {/* Grid column */}
-          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            {/* Links */}
-            <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-            <p>
-              <a href="/!" className="text-reset">
-                Angular
-              </a>
-            </p>
-            <p>
-              <a href="/!" className="text-reset">
-                React
-              </a>
-            </p>
-            <p>
-              <a href="/!" className="text-reset">
-                Vue
-              </a>
-            </p>
-            <p>
-              <a href="/!" className="text-reset">
-                Laravel
-              </a>
-            </p>
-          </div>
-          {/* Grid column */}
-          {/* Grid column */}
-          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            {/* Links */}
-            <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-            <p>
-              <a href="/!" className="text-reset">
-                Pricing
-              </a>
-            </p>
-            <p>
-              <a href="/!" className="text-reset">
-                Settings
-              </a>
-            </p>
-            <p>
-              <a href="/!" className="text-reset">
-                Orders
-              </a>
-            </p>
-            <p>
-              <a href="/!" className="text-reset">
-                Help
-              </a>
-            </p>
-          </div>
-          {/* Grid column */}
-          {/* Grid column */}
-         
+          </div>         
         </div>
-        {/* Grid row */}
       </div>
     </section>
     {/* Section: Links  */}
@@ -87,7 +31,7 @@ export const Footer = () => {
       className="text-center p-4"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}
     >
-      © 2024 Copyright:
+      © 2024 Copyright: 
       <a className="text-reset fw-bold" href="https://converter.harrykauhaad.com">
       converter.harrykauhaad.com
       </a>
