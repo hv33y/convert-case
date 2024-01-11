@@ -23,11 +23,11 @@ export const Wordcounter = (props) => {
         <h2>Your Text Summary</h2>   {/* // counting words and characters */}
         <table className="rtable">
           <tr>
-            <td> Words: {text.split(" ").filter((element) => { return element.length !== 0 }).length} </td>  {/*  {text.split('\n').join('').split(/[ ]+/).length} */}
-            <td> Characters : {text.length} { }  </td>    {/*  {text.split('\n').join('').split(/[ ]+/).join('').length} */}
-            <td> Space Counter: {text.split(" ").length - 1} </td>
+            <td> Words: {text.split(" ").filter((element) => { return element.length !== 0 }).length}</td>  {/*  {text.split('\n').join('').split(/[ ]+/).length} */}
+            <td> Characters : {text.length} { }</td>    {/*  {text.split('\n').join('').split(/[ ]+/).join('').length} */}
+            <td> Space Counter: {text.split(" ").length - 1}</td>
             <td> Paragraphs: {text.split(/\r\n|\r|\n/).filter((element) => { return element.length !== 0 }).length}</td>
-            <td> Time to Read: {0.008 * text.split(" ").filter((element) => { return element.length !== 0 }).length} </td>
+            <td> Time to Read: {0.008 * text.split(" ").filter((element) => { return element.length !== 0 }).length}</td>
             <td>Sentence count: {text.split(/[.?!]\s/).filter((element) => { return element.length !== 0 }).length}</td>
             <td>Characters per word(Average): {text.replace(/ /g, "").length / text.split(" ").length}</td>
           </tr>
